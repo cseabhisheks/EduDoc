@@ -22,12 +22,13 @@ export default function Register() {
                 {
                     label: "role",
                     type: "text",
-                    placeholder: "enter role"
+                    options: ["student", "teacher", "admin"]
+
                 },
                 {
                     label: "department",
                     type: "text",
-                    placeholder: "enter department"
+                    options: ["cse", "it", "ece", "mechanical"]
                 },
                 {
                     label: "enrollmentNo",
